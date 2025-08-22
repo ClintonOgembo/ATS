@@ -1,0 +1,24 @@
+﻿@page "/client-details"
+@inject NavigationManager NavigationManager
+
+<div class="header">
+    <h3>Client Details</h3>
+</div>
+
+@code {
+    [Parameter] public string? Email { get; set; }
+
+    private ClientDetailsModel clientExtra = new();
+
+    private void SaveClient()
+    {
+        // Save client extra info + user to DB
+        Console.WriteLine($"Client saved: {clientExtra.Address}");
+        NavigationManager.NavigateTo("/users");
+    }
+
+    public class ClientDetailsModel
+    {
+        public string Address { get; set; }
+    }
+}

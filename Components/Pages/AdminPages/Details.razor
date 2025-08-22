@@ -1,0 +1,56 @@
+﻿@page "/admins/details"
+@using Microsoft.EntityFrameworkCore
+@using AttainTaskSupportSystem.Models
+@inject IDbContextFactory<AttainTaskSupportSystem.Data.AttainTaskSupportSystemContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Details</PageTitle>
+
+<div class="header">
+<h1>Details</h1>
+</div>
+
+<div>
+    <hr />
+    @if (admin is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else {
+        <dl class="row">
+            <dt class="col-sm-2">FullName</dt>
+            <dd class="col-sm-10">@admin.FullName</dd>
+            <dt class="col-sm-2">Email</dt>
+            <dd class="col-sm-10">@admin.Email</dd>
+            <dt class="col-sm-2">Password</dt>
+            <dd class="col-sm-10">@admin.Password</dd>
+            <dt class="col-sm-2">ConfirmPassword</dt>
+            <dd class="col-sm-10">@admin.ConfirmPassword</dd>
+            <dt class="col-sm-2">role</dt>
+            <dd class="col-sm-10">@admin.role</dd>
+            <dt class="col-sm-2">Projects...</dt>
+        </dl>
+        <div>
+            <a href="@($"/admins/edit?id={admin.Id}")">Edit</a> |
+            <a href="@($"/admins")">Back to List</a>
+        </div>
+    }
+</div>
+
+@code {
+    private Admin? admin;
+
+    [SupplyParameterFromQuery]
+    private int Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        admin = await context.Admin.FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (admin is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+}

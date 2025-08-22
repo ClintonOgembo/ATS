@@ -1,0 +1,21 @@
+﻿.header {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    color: black;
+    background-color: orange;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+#cards {
+    background-color: #dc3545;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: karma, sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+}

@@ -1,0 +1,56 @@
+﻿@page "/client-home"
+@using AttainTaskSupportSystem.Models
+@using AttainTaskSupportSystem.Components.Layout
+@layout ClientLayout
+@inject NavigationManager NavigationManager
+
+<PageTitle>Home</PageTitle>
+<h1 class="mb-4">Welcome to AttainTaskSupportSystem</h1>
+
+<div class="row row-cols-1 row-cols-md-4 g-4">
+
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-body" id="cards">
+                <h5 class="card-title">Tasks</h5>
+                <p class="card-text">12</p>
+                <p class="card-text">Total in Number</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-body" id="cards">
+                <h5 class="card-title">Projects</h5>
+                <p class="card-text">18</p>
+                <p class="card-text">Total in Number</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-body" id="cards">
+                <h5 class="card-title">Open</h5>
+                <p class="card-text">8</p>
+                <p class="card-text">Total in Number</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-body" id="cards">
+                <h5 class="card-title">Inprogress</h5>
+                <p class="card-text">9</p>
+                <p class="card-text">Total in Number</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="header">
+    <h3>Open Tasks</h3>
+</div>

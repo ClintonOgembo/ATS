@@ -1,0 +1,42 @@
+﻿@page "/admins"
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using AttainTaskSupportSystem.Models
+@using AttainTaskSupportSystem.Data
+@implements IAsyncDisposable
+@inject IDbContextFactory<AttainTaskSupportSystem.Data.AttainTaskSupportSystemContext> DbFactory
+
+<PageTitle>Index</PageTitle>
+
+<div class="header">
+    <h1>Clients</h1>
+</div>
+
+<QuickGrid Class="table" Items="context.Admin">
+    <PropertyColumn Property="admin => admin.FullName" />
+    <PropertyColumn Property="admin => admin.Email" />
+    <PropertyColumn Property="admin => admin.Password" />
+    <PropertyColumn Property="admin => admin.ConfirmPassword" />
+    <PropertyColumn Property="admin => admin.role" />
+
+    <TemplateColumn Context="admin">
+        <a href="@($"admins/edit?id={admin.Id}")">Edit</a> |
+        <a href="@($"admins/details?id={admin.Id}")">View</a> |
+        <a href="@($"admins/delete?id={admin.Id}")">Delete</a>
+    </TemplateColumn>
+</QuickGrid>
+
+<p>
+    <a href="admins/create">Create New User</a>
+</p>
+
+@code {
+    private AttainTaskSupportSystemContext context = default!;
+
+    protected override void OnInitialized()
+    {
+        context = DbFactory.CreateDbContext();
+    }
+
+    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+}

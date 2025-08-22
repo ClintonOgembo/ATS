@@ -1,0 +1,50 @@
+﻿@page "/staff-details"
+
+@using Microsoft.AspNetCore.WebUtilities
+@inject NavigationManager NavigationManager
+
+<div class="header">
+    <h3>Staff Details</h3>
+    <p><strong>User:</strong> @FullName (@Email)</p>
+</div>
+
+<div class="mb-3">
+    <label>Department:</label>
+    <InputText @bind-Value="staffExtra.Department" class="form-control" />
+</div>
+<button class="btn btn-success" @onclick="SaveStaff">Save Staff</button>
+
+@code {
+    private string? FullName { get; set; }
+    private string? Email { get; set; }
+    private string? Password { get; set; }
+    private string? ConfirmPassword { get; set; }
+    private string? Role { get; set; }
+
+    private StaffDetailsModel staffExtra = new();
+
+    protected override void OnInitialized()
+    {
+        // Read query params from URL
+        var uri = NavigationManager.ToAbsoluteUri(NavigationManager.Uri);
+        var query = QueryHelpers.ParseQuery(uri.Query);
+
+        if (query.TryGetValue("fullname", out var fn)) FullName = fn!;
+        if (query.TryGetValue("email", out var em)) Email = em!;
+        if (query.TryGetValue("password", out var pw)) Password = pw!;
+        if (query.TryGetValue("confirmpassword", out var cp)) ConfirmPassword = cp!;
+        if (query.TryGetValue("role", out var rl)) Role = rl!;
+    }
+
+    private void SaveStaff()
+    {
+        // Save user + staff details here
+        Console.WriteLine($"Staff saved: {FullName}, Dept: {staffExtra.Department}");
+        NavigationManager.NavigateTo("/users");
+    }
+
+    public class StaffDetailsModel
+    {
+        public string Department { get; set; } = string.Empty;
+    }
+}

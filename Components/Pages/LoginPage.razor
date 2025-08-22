@@ -1,0 +1,80 @@
+﻿@page "/"
+@using AttainTaskSupportSystem.Components.Layout
+@layout LoginLayout
+@using System.ComponentModel.DataAnnotations
+@using Microsoft.AspNetCore.Components.Forms
+@inject NavigationManager NavigationManager
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <EditForm Model="loginModel" OnValidSubmit="HandleLogin" FormName="LoginForm">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+
+                <h3>Login</h3>
+
+                @if (!string.IsNullOrEmpty(errorMessage))
+                {
+                    <div class="alert alert-danger">@errorMessage</div>
+                }
+
+                <div class="form-group mb-3">
+                    <label>Email</label>
+                    <InputText @bind-Value="loginModel.Email" class="form-control" />
+					<ValidationMessage For="@(() => loginModel.Email)" class="text-danger" />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label>Password</label>
+                    <InputText @bind-Value="loginModel.Password" type="password" class="form-control" />
+					<ValidationMessage For="@(() => loginModel.Password)" class="text-danger" />
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">Login</button>
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+@code {
+    [SupplyParameterFromForm]
+    private LoginModel loginModel { get; set; } = new();
+
+    private void HandleLogin()
+    {
+        // ✅ Simple hardcoded validation (replace with DB/auth check later)
+        if (loginModel.Email == "clintonogembo70@gmail.com" && loginModel.Password == "admin123")
+        {
+            // Redirect to client home page
+            NavigationManager.NavigateTo("/home");
+        }
+		else if (loginModel.Email == "sam21@gmail.com" && loginModel.Password == "sam123")
+		{
+			// Redirect to admin home page
+			NavigationManager.NavigateTo("/client-home");
+		}
+		else if (loginModel.Email == "joy15@gmail.com" && loginModel.Password == "joy123")
+		{
+			// Redirect to staff home page
+			NavigationManager.NavigateTo("/staff/home");
+		}
+        else
+        {
+            // Show error
+            errorMessage = "Invalid email or password!";
+        }
+    }
+
+    private string errorMessage = "";
+
+    public class LoginModel
+    {
+		[Required(ErrorMessage = "Email is required")]
+		[EmailAddress(ErrorMessage = "Invalid email format")]
+        public string Email { get; set; } = string.Empty;
+
+		[Required(ErrorMessage = "Password is required")]
+        public string Password { get; set; } = string.Empty;
+    }
+}

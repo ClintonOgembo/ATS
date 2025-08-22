@@ -1,0 +1,21 @@
+#cards[b-6lj8hfak7n] {
+    background-color: #dc3545;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: karma, sans-serif;
+}
+.card[b-6lj8hfak7n] {
+    border-radius: 10px;
+}
+
+.header[b-6lj8hfak7n] {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    color: black;
+    background-color: orange;
+    padding: 0.5rem;
+    border-radius: 5px;
+}

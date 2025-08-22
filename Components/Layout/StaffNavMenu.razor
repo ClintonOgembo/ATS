@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expandable Tasks Navigation</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+    <style>
+        .dropdown-arrow {
+            transition: transform 0.3s ease;
+            margin-right: 0.5rem;
+            color: white;
+        }
+
+            .dropdown-arrow.expanded {
+                transform: rotate(90deg);
+            }
+
+        .submenu {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+            .submenu.expanded {
+                max-height: 200px;
+            }
+
+            .submenu .nav-link {
+                padding-left: 2rem;
+            }
+
+        .tasks-main {
+            cursor: pointer;
+            user-select: none;
+            color: white !important;
+        }
+
+        /* Ensure all navigation links are white and visible */
+        .nav-link {
+            color: white !important;
+        }
+
+            .nav-link:visited {
+                color: white !important;
+            }
+
+        .nav-item {
+            color: white !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-row ps-3 navbar navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">AttainTaskSupportSystem</a>
+        </div>
+    </div>
+    <div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+        <nav class="nav flex-column">
+            <div class="nav-item px-3">
+                <u class="head">STAFF DASHBOARD</u>
+            </div>
+            <div class="nav-item px-3">
+                <div class="nav-link tasks-main" onclick="event.stopPropagation(); toggleDropdown()">
+                    <i class="bi bi-chevron-right dropdown-arrow" id="dropdownArrow"></i> Assigned Tickets
+                </div>
+                <div class="submenu" id="tasksSubmenu">
+                    <NavLink class="nav-link" href="/staff/home" onclick="event.stopPropagation()">
+                        Open Tasks
+                    </NavLink>
+                    <NavLink class="nav-link" href="/staff-inprogress" onclick="event.stopPropagation()">
+                        Inprogress Tasks
+                    </NavLink>
+                </div>
+            </div>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="/staff-projects">
+                    Projects
+                </NavLink>
+            </div>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="/closed-tickets">
+                    Closed
+                </NavLink>
+            </div>
+        </nav>
+    </div>
+
+    <script>
+        function toggleDropdown() {
+            const arrow = document.getElementById('dropdownArrow');
+            const submenu = document.getElementById('tasksSubmenu');
+
+            // Toggle the dropdown on each click
+            arrow.classList.toggle('expanded');
+            submenu.classList.toggle('expanded');
+        }
+    </script>
+</body>
+</html>
