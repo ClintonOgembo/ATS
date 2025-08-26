@@ -15,9 +15,7 @@
 <QuickGrid Class="table" Items="context.Admin">
     <PropertyColumn Property="admin => admin.FullName" />
     <PropertyColumn Property="admin => admin.Email" />
-    <PropertyColumn Property="admin => admin.Password" />
-    <PropertyColumn Property="admin => admin.ConfirmPassword" />
-    <PropertyColumn Property="admin => admin.role" />
+    <PropertyColumn Property="admin => admin.Role" />
 
     <TemplateColumn Context="admin">
         <a href="@($"admins/edit?id={admin.Id}")">Edit</a> |

@@ -15,5 +15,7 @@ namespace AttainTaskSupportSystem.Data
         }
 
         public DbSet<AttainTaskSupportSystem.Models.Admin> Admin { get; set; } = default!;
+        public DbSet<AttainTaskSupportSystem.Models.Staff> Staff { get; set; } = default!;
+        public DbSet<AttainTaskSupportSystem.Models.Client> Client { get; set; } = default!;
     }
 }

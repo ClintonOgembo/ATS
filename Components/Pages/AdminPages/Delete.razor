@@ -27,16 +27,8 @@
             <dd class="col-sm-10">@admin.Email</dd>
         </dl>
         <dl class="row">
-            <dt class="col-sm-2">Password</dt>
-            <dd class="col-sm-10">@admin.Password</dd>
-        </dl>
-        <dl class="row">
-            <dt class="col-sm-2">ConfirmPassword</dt>
-            <dd class="col-sm-10">@admin.ConfirmPassword</dd>
-        </dl>
-        <dl class="row">
             <dt class="col-sm-2">role</dt>
-            <dd class="col-sm-10">@admin.role</dd>
+            <dd class="col-sm-10">@admin.Role</dd>
         </dl>
         <EditForm method="post" Model="admin" OnValidSubmit="DeleteAdmin" FormName="delete" Enhance>
             <button type="submit" class="btn btn-danger" disabled="@(admin is null)">Delete</button> |

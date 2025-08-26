@@ -10,46 +10,36 @@
 <div class="header">
     <h1>Create User</h1>
 </div>
+
 <hr />
+
 <div class="row">
     <div class="col-md-4">
-        <EditForm Model="Admin" OnValidSubmit="ContinueToRolePage" FormName="CreateForm">
+        <EditForm Model="InputModel" OnValidSubmit="ContinueToRolePage" FormName="CreateForm">
             <DataAnnotationsValidator />
             <ValidationSummary class="text-danger" role="alert" />
 
             <div class="mb-3">
                 <label for="fullname" class="form-label">Full Name:</label>
-                <InputText id="fullname" @bind-Value="Admin.FullName" class="form-control" />
-                <ValidationMessage For="() => Admin.FullName" class="text-danger" />
+                <InputText id="fullname" @bind-Value="InputModel.FullName" class="form-control" />
+                <ValidationMessage For="() => InputModel.FullName" class="text-danger" />
             </div>
 
             <div class="mb-3">
                 <label for="email" class="form-label">Email:</label>
-                <InputText id="email" @bind-Value="Admin.Email" class="form-control" />
-                <ValidationMessage For="() => Admin.Email" class="text-danger" />
-            </div>
-
-            <div class="mb-3">
-                <label for="password" class="form-label">Password:</label>
-                <InputText id="password" type="password" @bind-Value="Admin.Password" class="form-control" />
-                <ValidationMessage For="() => Admin.Password" class="text-danger" />
-            </div>
-
-            <div class="mb-3">
-                <label for="confirmpassword" class="form-label">Confirm Password:</label>
-                <InputText id="confirmpassword" type="password" @bind-Value="Admin.ConfirmPassword" class="form-control" />
-                <ValidationMessage For="() => Admin.ConfirmPassword" class="text-danger" />
+                <InputText id="email" @bind-Value="InputModel.Email" class="form-control" />
+                <ValidationMessage For="() => InputModel.Email" class="text-danger" />
             </div>
 
             <div class="mb-3">
                 <label for="role" class="form-label">Role:</label>
-                <InputSelect id="role" @bind-Value="Admin.role" class="form-control">
+                <InputSelect id="role" @bind-Value="InputModel.Role" class="form-control">
                     <option value="">-- Select Role --</option>
-                    <option value="admin">Admin</option>
-                    <option value="staff">Staff</option>
-                    <option value="client">Client</option>
+                    <option value="Admin">Admin</option>
+                    <option value="Staff">Staff</option>
+                    <option value="Client">Client</option>
                 </InputSelect>
-                <ValidationMessage For="() => Admin.role" class="text-danger" />
+                <ValidationMessage For="() => InputModel.Role" class="text-danger" />
             </div>
 
             <button type="submit" class="btn btn-primary">Continue</button>
@@ -64,31 +54,41 @@
 @code {
     private Admin Admin { get; set; } = new();
 
+    [SupplyParameterFromForm]
+    private Input InputModel { get; set; } = new ();
+
+    public class Input
+    {
+        public string FullName { get; set; }
+        public string Email { get; set; }
+        public string Role { get; set; }
+    }
+
     private async Task ContinueToRolePage()
     {
-        if (string.IsNullOrEmpty(Admin.role))
-            return; // role required
-
-        var queryParams = new Dictionary<string, string?>
-            {
-                ["fullname"] = Admin.FullName,
-                ["email"] = Admin.Email,
-                ["password"] = Admin.Password,
-                ["confirmpassword"] = Admin.ConfirmPassword,
-                ["role"] = Admin.role
-            };
-
-        var uri = QueryHelpers.AddQueryString(
-            Admin.role.ToLower() switch
-            {
-                "staff" => "/staff-details",
-                "client" => "/client-details",
-                "admin" => "/admin-details",
-                _ => "/admins"
-            },
-            queryParams
-        );
-
-        NavigationManager.NavigateTo(uri);
+        if (string.IsNullOrEmpty(InputModel.Role))
+        {
+            Console.WriteLine("No role selected");
+            return;
+        }
+		else if (InputModel.Role == "Admin")
+		{
+			Console.WriteLine(InputModel.Role);
+			Admin.Role = InputModel.Role;
+			NavigationManager.NavigateTo("/admins/create-admin");
+		}
+		else if (InputModel.Role == "Staff")
+		{
+			Console.WriteLine(InputModel.Role);
+			Admin.Role = InputModel.Role;
+            NavigationManager.NavigateTo("/staff-details");
+		}
+		else
+		{
+			Console.WriteLine(InputModel.Role);
+			Admin.Role = InputModel.Role;
+            NavigationManager.NavigateTo("/client-details");
+		}
     }
+
 }
