@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using AttainTaskSupportSystem.Data;
+using AttainTaskSupportSystem.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContextFactory<AttainTaskSupportSystemContext>(options =>
@@ -10,6 +11,8 @@ builder.Services.AddDbContextFactory<AttainTaskSupportSystemContext>(options =>
 builder.Services.AddQuickGridEntityFrameworkAdapter();
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+builder.Services.AddScoped<UserCreationStateService>();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
