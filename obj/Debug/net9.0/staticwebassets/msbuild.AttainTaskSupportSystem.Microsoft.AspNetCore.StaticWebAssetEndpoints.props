@@ -24,17 +24,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"khy4lop6wu"},{"Name":"integrity","Value":"sha256-aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs="},{"Name":"label","Value":"_content/AttainTaskSupportSystem/app.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2900"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Aug 2025 09:01:27 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/AttainTaskSupportSystem/AttainTaskSupportSystem.4s8nbnmpva.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AttainTaskSupportSystem.4s8nbnmpva.bundle.scp.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4s8nbnmpva"},{"Name":"integrity","Value":"sha256-NNMFKeRxrnlnUA6TJmbj2ZA0YOFf6sKNE/PWlovtkqw="},{"Name":"label","Value":"_content/AttainTaskSupportSystem/AttainTaskSupportSystem.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"25115"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022NNMFKeRxrnlnUA6TJmbj2ZA0YOFf6sKNE/PWlovtkqw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 27 Aug 2025 09:32:41 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AttainTaskSupportSystem/AttainTaskSupportSystem.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AttainTaskSupportSystem.4s8nbnmpva.bundle.scp.css'))</AssetFile>
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AttainTaskSupportSystem.my6zojyzyd.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NNMFKeRxrnlnUA6TJmbj2ZA0YOFf6sKNE/PWlovtkqw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"25115"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022NNMFKeRxrnlnUA6TJmbj2ZA0YOFf6sKNE/PWlovtkqw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 27 Aug 2025 09:32:41 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/jEDjSZa15hDZNMpXOmEvCeWN1qYwPjBWePVJ8gY1WQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"24798"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/jEDjSZa15hDZNMpXOmEvCeWN1qYwPjBWePVJ8gY1WQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 27 Aug 2025 10:49:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AttainTaskSupportSystem/AttainTaskSupportSystem.my6zojyzyd.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AttainTaskSupportSystem.my6zojyzyd.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"my6zojyzyd"},{"Name":"integrity","Value":"sha256-/jEDjSZa15hDZNMpXOmEvCeWN1qYwPjBWePVJ8gY1WQ="},{"Name":"label","Value":"_content/AttainTaskSupportSystem/AttainTaskSupportSystem.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24798"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/jEDjSZa15hDZNMpXOmEvCeWN1qYwPjBWePVJ8gY1WQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 27 Aug 2025 10:49:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AttainTaskSupportSystem/favicon.ifv42okdf2.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.png'))</AssetFile>

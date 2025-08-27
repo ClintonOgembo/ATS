@@ -85,7 +85,9 @@
         else
         {
             Console.WriteLine(InputModel.Role);
-            NavigationManager.NavigateTo("/client-details");
+            NavigationManager.NavigateTo(
+            $"/client-details?fullName={Uri.EscapeDataString(InputModel.FullName)}&email={Uri.EscapeDataString(InputModel.Email)}&role={Uri.EscapeDataString(InputModel.Role)}"
+            );
         }
     }
 

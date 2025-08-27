@@ -252,7 +252,6 @@ C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\scopedcss\Compone
 C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\scopedcss\Components\Layout\StaffLayout.razor.rz.scp.css
 C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\scopedcss\Components\Layout\StaffNavMenu.razor.rz.scp.css
-C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\scopedcss\Components\Pages\AdminPages\AdminDetails.razor.rz.scp.css
 C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\scopedcss\Components\Pages\AdminPages\ClientDetails.razor.rz.scp.css
 C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\scopedcss\Components\Pages\AdminPages\Create.razor.rz.scp.css
 C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\scopedcss\Components\Pages\AdminPages\Delete.razor.rz.scp.css
@@ -320,8 +319,6 @@ C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\compressed\yn2vet
 C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\compressed\ijvoy5s13w-63fj8s7r0e.gz
 C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\compressed\jwbp9apcsm-0j3bgjxly4.gz
 C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\compressed\3gin1ph7ub-25o87uqmvr.gz
-C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\compressed\8n8h2xd4g6-bqw0114qdk.gz
-C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\compressed\9yoi0z93wq-4s8nbnmpva.gz
 C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -338,3 +335,5 @@ C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\refint\AttainTask
 C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\AttainTaskSupportSystem.pdb
 C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\AttainTaskSupportSystem.genruntimeconfig.cache
 C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\ref\AttainTaskSupportSystem.dll
+C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\compressed\8n8h2xd4g6-1lsi74tdd7.gz
+C:\Users\USER\Desktop\AttainTaskSupportSystem\obj\Debug\net9.0\compressed\9yoi0z93wq-my6zojyzyd.gz

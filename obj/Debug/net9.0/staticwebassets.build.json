@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jDD4YZSqCXK4BwDivRDzOkC6YAPfSeTavtBGnNR/Kpg=",
+  "Hash": "KX16NqHGKD81lftnh/Q3GA6NGVzHzLpfIG+x2qR+KYY=",
   "Source": "AttainTaskSupportSystem",
   "BasePath": "_content/AttainTaskSupportSystem",
   "Mode": "Default",
@@ -227,12 +227,12 @@
       "OriginalItemSpec": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\8n8h2xd4g6-bqw0114qdk.gz",
+      "Identity": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\8n8h2xd4g6-1lsi74tdd7.gz",
       "SourceId": "AttainTaskSupportSystem",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AttainTaskSupportSystem",
-      "RelativePath": "AttainTaskSupportSystem#[.{fingerprint=bqw0114qdk}]?.styles.css.gz",
+      "RelativePath": "AttainTaskSupportSystem#[.{fingerprint=1lsi74tdd7}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -241,8 +241,8 @@
       "RelatedAsset": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\scopedcss\\bundle\\AttainTaskSupportSystem.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "idxcr2sq8z",
-      "Integrity": "CkmROkc2CWzHYj/DiaEQknc4GankgtCGRU5segPAiDA=",
+      "Fingerprint": "m7qkuywzod",
+      "Integrity": "sifK7MWhualTxju8nSEhgd0aGDVD9xoO05EbpePcyMg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\scopedcss\\bundle\\AttainTaskSupportSystem.styles.css"
@@ -290,12 +290,12 @@
       "OriginalItemSpec": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\9yoi0z93wq-4s8nbnmpva.gz",
+      "Identity": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\9yoi0z93wq-my6zojyzyd.gz",
       "SourceId": "AttainTaskSupportSystem",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AttainTaskSupportSystem",
-      "RelativePath": "AttainTaskSupportSystem#[.{fingerprint=4s8nbnmpva}]!.bundle.scp.css.gz",
+      "RelativePath": "AttainTaskSupportSystem#[.{fingerprint=my6zojyzyd}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -304,8 +304,8 @@
       "RelatedAsset": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AttainTaskSupportSystem.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "2ctqn7yepa",
-      "Integrity": "AqpzBDVtvP1opzbJF4wCW7PkGXpfG/PpX4F3Osa01vo=",
+      "Fingerprint": "96l3xmuc31",
+      "Integrity": "8UZwuReeQHl8Ey4BFtmWkQg/QIFG4yyyeFk633vmIyU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AttainTaskSupportSystem.bundle.scp.css"
@@ -1102,8 +1102,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "bqw0114qdk",
-      "Integrity": "TVUfFitXT2HtNESniUs374fIDLdBpg2hCq62/vPMlFc=",
+      "Fingerprint": "1lsi74tdd7",
+      "Integrity": "NWhyQ0thRURZwhOPbx1Q/EeBwKgVHoCFh4Lbf3PkkxQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\scopedcss\\bundle\\AttainTaskSupportSystem.styles.css"
@@ -1123,8 +1123,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "4s8nbnmpva",
-      "Integrity": "NNMFKeRxrnlnUA6TJmbj2ZA0YOFf6sKNE/PWlovtkqw=",
+      "Fingerprint": "my6zojyzyd",
+      "Integrity": "/jEDjSZa15hDZNMpXOmEvCeWN1qYwPjBWePVJ8gY1WQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AttainTaskSupportSystem.bundle.scp.css"
@@ -2826,13 +2826,13 @@
       ]
     },
     {
-      "Route": "AttainTaskSupportSystem.4s8nbnmpva.bundle.scp.css",
-      "AssetFile": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\9yoi0z93wq-4s8nbnmpva.gz",
+      "Route": "AttainTaskSupportSystem.1lsi74tdd7.styles.css",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\8n8h2xd4g6-1lsi74tdd7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000343288706"
+          "Quality": "0.000338868180"
         }
       ],
       "ResponseHeaders": [
@@ -2842,15 +2842,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2912"
+          "Value": "2950"
         },
         {
           "Name": "ETag",
-          "Value": "\"AqpzBDVtvP1opzbJF4wCW7PkGXpfG/PpX4F3Osa01vo=\""
+          "Value": "\"sifK7MWhualTxju8nSEhgd0aGDVD9xoO05EbpePcyMg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Aug 2025 09:32:41 GMT"
+          "Value": "Wed, 27 Aug 2025 10:49:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2870,168 +2870,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"NNMFKeRxrnlnUA6TJmbj2ZA0YOFf6sKNE/PWlovtkqw=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4s8nbnmpva"
-        },
-        {
-          "Name": "label",
-          "Value": "AttainTaskSupportSystem.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-NNMFKeRxrnlnUA6TJmbj2ZA0YOFf6sKNE/PWlovtkqw="
-        }
-      ]
-    },
-    {
-      "Route": "AttainTaskSupportSystem.4s8nbnmpva.bundle.scp.css",
-      "AssetFile": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AttainTaskSupportSystem.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "25115"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NNMFKeRxrnlnUA6TJmbj2ZA0YOFf6sKNE/PWlovtkqw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 27 Aug 2025 09:32:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4s8nbnmpva"
-        },
-        {
-          "Name": "label",
-          "Value": "AttainTaskSupportSystem.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-NNMFKeRxrnlnUA6TJmbj2ZA0YOFf6sKNE/PWlovtkqw="
-        }
-      ]
-    },
-    {
-      "Route": "AttainTaskSupportSystem.4s8nbnmpva.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\9yoi0z93wq-4s8nbnmpva.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2912"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AqpzBDVtvP1opzbJF4wCW7PkGXpfG/PpX4F3Osa01vo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 27 Aug 2025 09:32:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4s8nbnmpva"
-        },
-        {
-          "Name": "label",
-          "Value": "AttainTaskSupportSystem.bundle.scp.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-AqpzBDVtvP1opzbJF4wCW7PkGXpfG/PpX4F3Osa01vo="
-        }
-      ]
-    },
-    {
-      "Route": "AttainTaskSupportSystem.bqw0114qdk.styles.css",
-      "AssetFile": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\8n8h2xd4g6-bqw0114qdk.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000337268128"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2964"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CkmROkc2CWzHYj/DiaEQknc4GankgtCGRU5segPAiDA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 27 Aug 2025 09:32:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"TVUfFitXT2HtNESniUs374fIDLdBpg2hCq62/vPMlFc=\""
+          "Value": "W/\"NWhyQ0thRURZwhOPbx1Q/EeBwKgVHoCFh4Lbf3PkkxQ=\""
         },
         {
           "Name": "Link",
@@ -3041,11 +2880,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bqw0114qdk"
+          "Value": "1lsi74tdd7"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TVUfFitXT2HtNESniUs374fIDLdBpg2hCq62/vPMlFc="
+          "Value": "sha256-NWhyQ0thRURZwhOPbx1Q/EeBwKgVHoCFh4Lbf3PkkxQ="
         },
         {
           "Name": "label",
@@ -3054,7 +2893,7 @@
       ]
     },
     {
-      "Route": "AttainTaskSupportSystem.bqw0114qdk.styles.css",
+      "Route": "AttainTaskSupportSystem.1lsi74tdd7.styles.css",
       "AssetFile": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\scopedcss\\bundle\\AttainTaskSupportSystem.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3068,7 +2907,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25248"
+          "Value": "24931"
         },
         {
           "Name": "Content-Type",
@@ -3076,11 +2915,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TVUfFitXT2HtNESniUs374fIDLdBpg2hCq62/vPMlFc=\""
+          "Value": "\"NWhyQ0thRURZwhOPbx1Q/EeBwKgVHoCFh4Lbf3PkkxQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Aug 2025 09:32:41 GMT"
+          "Value": "Wed, 27 Aug 2025 10:49:08 GMT"
         },
         {
           "Name": "Link",
@@ -3090,11 +2929,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bqw0114qdk"
+          "Value": "1lsi74tdd7"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TVUfFitXT2HtNESniUs374fIDLdBpg2hCq62/vPMlFc="
+          "Value": "sha256-NWhyQ0thRURZwhOPbx1Q/EeBwKgVHoCFh4Lbf3PkkxQ="
         },
         {
           "Name": "label",
@@ -3103,8 +2942,8 @@
       ]
     },
     {
-      "Route": "AttainTaskSupportSystem.bqw0114qdk.styles.css.gz",
-      "AssetFile": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\8n8h2xd4g6-bqw0114qdk.gz",
+      "Route": "AttainTaskSupportSystem.1lsi74tdd7.styles.css.gz",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\8n8h2xd4g6-1lsi74tdd7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3113,7 +2952,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2964"
+          "Value": "2950"
         },
         {
           "Name": "Content-Type",
@@ -3121,11 +2960,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CkmROkc2CWzHYj/DiaEQknc4GankgtCGRU5segPAiDA=\""
+          "Value": "\"sifK7MWhualTxju8nSEhgd0aGDVD9xoO05EbpePcyMg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Aug 2025 09:32:41 GMT"
+          "Value": "Wed, 27 Aug 2025 10:49:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3143,7 +2982,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bqw0114qdk"
+          "Value": "1lsi74tdd7"
         },
         {
           "Name": "label",
@@ -3151,18 +2990,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-CkmROkc2CWzHYj/DiaEQknc4GankgtCGRU5segPAiDA="
+          "Value": "sha256-sifK7MWhualTxju8nSEhgd0aGDVD9xoO05EbpePcyMg="
         }
       ]
     },
     {
       "Route": "AttainTaskSupportSystem.bundle.scp.css",
-      "AssetFile": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\9yoi0z93wq-4s8nbnmpva.gz",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\9yoi0z93wq-my6zojyzyd.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000343288706"
+          "Quality": "0.000345184674"
         }
       ],
       "ResponseHeaders": [
@@ -3172,15 +3011,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2912"
+          "Value": "2896"
         },
         {
           "Name": "ETag",
-          "Value": "\"AqpzBDVtvP1opzbJF4wCW7PkGXpfG/PpX4F3Osa01vo=\""
+          "Value": "\"8UZwuReeQHl8Ey4BFtmWkQg/QIFG4yyyeFk633vmIyU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Aug 2025 09:32:41 GMT"
+          "Value": "Wed, 27 Aug 2025 10:49:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3200,13 +3039,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"NNMFKeRxrnlnUA6TJmbj2ZA0YOFf6sKNE/PWlovtkqw=\""
+          "Value": "W/\"/jEDjSZa15hDZNMpXOmEvCeWN1qYwPjBWePVJ8gY1WQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NNMFKeRxrnlnUA6TJmbj2ZA0YOFf6sKNE/PWlovtkqw="
+          "Value": "sha256-/jEDjSZa15hDZNMpXOmEvCeWN1qYwPjBWePVJ8gY1WQ="
         }
       ]
     },
@@ -3221,7 +3060,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25115"
+          "Value": "24798"
         },
         {
           "Name": "Content-Type",
@@ -3229,11 +3068,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NNMFKeRxrnlnUA6TJmbj2ZA0YOFf6sKNE/PWlovtkqw=\""
+          "Value": "\"/jEDjSZa15hDZNMpXOmEvCeWN1qYwPjBWePVJ8gY1WQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Aug 2025 09:32:41 GMT"
+          "Value": "Wed, 27 Aug 2025 10:49:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3243,13 +3082,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NNMFKeRxrnlnUA6TJmbj2ZA0YOFf6sKNE/PWlovtkqw="
+          "Value": "sha256-/jEDjSZa15hDZNMpXOmEvCeWN1qYwPjBWePVJ8gY1WQ="
         }
       ]
     },
     {
       "Route": "AttainTaskSupportSystem.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\9yoi0z93wq-4s8nbnmpva.gz",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\9yoi0z93wq-my6zojyzyd.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3258,7 +3097,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2912"
+          "Value": "2896"
         },
         {
           "Name": "Content-Type",
@@ -3266,11 +3105,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AqpzBDVtvP1opzbJF4wCW7PkGXpfG/PpX4F3Osa01vo=\""
+          "Value": "\"8UZwuReeQHl8Ey4BFtmWkQg/QIFG4yyyeFk633vmIyU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Aug 2025 09:32:41 GMT"
+          "Value": "Wed, 27 Aug 2025 10:49:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3288,18 +3127,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AqpzBDVtvP1opzbJF4wCW7PkGXpfG/PpX4F3Osa01vo="
+          "Value": "sha256-8UZwuReeQHl8Ey4BFtmWkQg/QIFG4yyyeFk633vmIyU="
         }
       ]
     },
     {
-      "Route": "AttainTaskSupportSystem.styles.css",
-      "AssetFile": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\8n8h2xd4g6-bqw0114qdk.gz",
+      "Route": "AttainTaskSupportSystem.my6zojyzyd.bundle.scp.css",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\9yoi0z93wq-my6zojyzyd.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000337268128"
+          "Quality": "0.000345184674"
         }
       ],
       "ResponseHeaders": [
@@ -3309,15 +3148,176 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2964"
+          "Value": "2896"
         },
         {
           "Name": "ETag",
-          "Value": "\"CkmROkc2CWzHYj/DiaEQknc4GankgtCGRU5segPAiDA=\""
+          "Value": "\"8UZwuReeQHl8Ey4BFtmWkQg/QIFG4yyyeFk633vmIyU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Aug 2025 09:32:41 GMT"
+          "Value": "Wed, 27 Aug 2025 10:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/jEDjSZa15hDZNMpXOmEvCeWN1qYwPjBWePVJ8gY1WQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "my6zojyzyd"
+        },
+        {
+          "Name": "label",
+          "Value": "AttainTaskSupportSystem.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/jEDjSZa15hDZNMpXOmEvCeWN1qYwPjBWePVJ8gY1WQ="
+        }
+      ]
+    },
+    {
+      "Route": "AttainTaskSupportSystem.my6zojyzyd.bundle.scp.css",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AttainTaskSupportSystem.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24798"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/jEDjSZa15hDZNMpXOmEvCeWN1qYwPjBWePVJ8gY1WQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Aug 2025 10:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "my6zojyzyd"
+        },
+        {
+          "Name": "label",
+          "Value": "AttainTaskSupportSystem.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/jEDjSZa15hDZNMpXOmEvCeWN1qYwPjBWePVJ8gY1WQ="
+        }
+      ]
+    },
+    {
+      "Route": "AttainTaskSupportSystem.my6zojyzyd.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\9yoi0z93wq-my6zojyzyd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8UZwuReeQHl8Ey4BFtmWkQg/QIFG4yyyeFk633vmIyU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Aug 2025 10:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "my6zojyzyd"
+        },
+        {
+          "Name": "label",
+          "Value": "AttainTaskSupportSystem.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8UZwuReeQHl8Ey4BFtmWkQg/QIFG4yyyeFk633vmIyU="
+        }
+      ]
+    },
+    {
+      "Route": "AttainTaskSupportSystem.styles.css",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\8n8h2xd4g6-1lsi74tdd7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000338868180"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2950"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sifK7MWhualTxju8nSEhgd0aGDVD9xoO05EbpePcyMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Aug 2025 10:49:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3337,7 +3337,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"TVUfFitXT2HtNESniUs374fIDLdBpg2hCq62/vPMlFc=\""
+          "Value": "W/\"NWhyQ0thRURZwhOPbx1Q/EeBwKgVHoCFh4Lbf3PkkxQ=\""
         },
         {
           "Name": "Link",
@@ -3347,7 +3347,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TVUfFitXT2HtNESniUs374fIDLdBpg2hCq62/vPMlFc="
+          "Value": "sha256-NWhyQ0thRURZwhOPbx1Q/EeBwKgVHoCFh4Lbf3PkkxQ="
         }
       ]
     },
@@ -3366,7 +3366,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25248"
+          "Value": "24931"
         },
         {
           "Name": "Content-Type",
@@ -3374,11 +3374,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TVUfFitXT2HtNESniUs374fIDLdBpg2hCq62/vPMlFc=\""
+          "Value": "\"NWhyQ0thRURZwhOPbx1Q/EeBwKgVHoCFh4Lbf3PkkxQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Aug 2025 09:32:41 GMT"
+          "Value": "Wed, 27 Aug 2025 10:49:08 GMT"
         },
         {
           "Name": "Link",
@@ -3388,13 +3388,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TVUfFitXT2HtNESniUs374fIDLdBpg2hCq62/vPMlFc="
+          "Value": "sha256-NWhyQ0thRURZwhOPbx1Q/EeBwKgVHoCFh4Lbf3PkkxQ="
         }
       ]
     },
     {
       "Route": "AttainTaskSupportSystem.styles.css.gz",
-      "AssetFile": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\8n8h2xd4g6-bqw0114qdk.gz",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\obj\\Debug\\net9.0\\compressed\\8n8h2xd4g6-1lsi74tdd7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3403,7 +3403,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2964"
+          "Value": "2950"
         },
         {
           "Name": "Content-Type",
@@ -3411,11 +3411,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CkmROkc2CWzHYj/DiaEQknc4GankgtCGRU5segPAiDA=\""
+          "Value": "\"sifK7MWhualTxju8nSEhgd0aGDVD9xoO05EbpePcyMg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Aug 2025 09:32:41 GMT"
+          "Value": "Wed, 27 Aug 2025 10:49:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3433,7 +3433,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CkmROkc2CWzHYj/DiaEQknc4GankgtCGRU5segPAiDA="
+          "Value": "sha256-sifK7MWhualTxju8nSEhgd0aGDVD9xoO05EbpePcyMg="
         }
       ]
     },
