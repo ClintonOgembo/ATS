@@ -1,22 +1,79 @@
 ﻿@page "/staff-details"
+@inject NavigationManager NavigationManager 
+
 <PageTitle>Staff Details</PageTitle>
 
 <div class="header">
     <h1>Staff Details</h1>
 </div>
 <hr />
+<EditForm method="post" Model="StaffExtra" OnValidSubmit="SaveStaff" FormName="saveStaff">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
 
-<p>Hello world</p>
-<p>This is staff details page.....</p>
+    <div class="mb-3">
+        <label for="department" class="form-label">Department</label>
+        <InputSelect id="department" class="form-control" @bind-Value="StaffExtra.Department">
+			<option value="">---Select Department---</option>
+			<option value="1">HR</option>
+			<option value="2">Frontend</option>
+            <option value="3">UI/UX</option>
+			<option value="4">Finance</option>
+			<option value="5">Marketing</option>
+        </InputSelect>
+        <ValidationMessage For="@(() => StaffExtra.Department)" />
+    </div>
 
-<div>
-    <a href="/admins/create">Back to Create User</a>
-</div>
+    <div class="mb-3">
+        <label for="address" class="form-label">Address</label>
+        <InputText id="address" class="form-control" @bind-Value="StaffExtra.Address" />
+        <ValidationMessage For="@(() => StaffExtra.Address)" />
+    </div>
+
+    <div class="mb-3">
+        <label for="telephone" class="form-label">Telephone</label>
+        <InputText id="telephone" class="form-control" @bind-Value="StaffExtra.Telephone" />
+        <ValidationMessage For="@(() => StaffExtra.Telephone)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Staff</button>
+</EditForm>
 
 @code {
-    protected override async Task OnInitializedAsync()
+    [SupplyParameterFromForm]
+    public StaffDetailsModel StaffExtra { get; set; } = new();
+
+    public async Task SaveStaff()
     {
-        Console.WriteLine("Staff details page loaded successfully");
-        await base.OnInitializedAsync();
+        try
+        {
+            Console.WriteLine($"Staff saved: ID={StaffExtra.Department}, Address={StaffExtra.Address}, Telephone={StaffExtra.Telephone}");
+
+            // Add your actual save logic here (database call, API call, etc.)
+            await Task.Delay(100); // Simulate async operation
+
+            // Navigation should work properly with server-side forms
+            NavigationManager.NavigateTo("/admins");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error saving staff: {ex.Message}");
+            // Handle error appropriately
+        }
+    }
+
+    public class StaffDetailsModel
+    {
+        [Required(ErrorMessage = "Department is required")]
+        public string Department { get; set; }
+
+        [Required(ErrorMessage = "Address is required")]
+        [StringLength(30, ErrorMessage = "Address cannot exceed 30 characters")]
+        public string Address { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "Telephone is required")]
+        [Phone(ErrorMessage = "Please enter a valid telephone number")]
+        [StringLength(12, ErrorMessage = "Telephone cannot exceed 12 characters")]
+        public string Telephone { get; set; } = string.Empty;
     }
 }

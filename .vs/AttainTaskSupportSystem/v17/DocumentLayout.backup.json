@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|c:\\users\\user\\desktop\\attaintasksupportsystem\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|c:\\users\\user\\desktop\\attaintasksupportsystem\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|solutionrelative:models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|c:\\users\\user\\desktop\\attaintasksupportsystem\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|c:\\users\\user\\desktop\\attaintasksupportsystem\\components\\pages\\adminpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|solutionrelative:components\\pages\\adminpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|c:\\users\\user\\desktop\\attaintasksupportsystem\\data\\attaintasksupportsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|solutionrelative:data\\attaintasksupportsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|c:\\users\\user\\desktop\\attaintasksupportsystem\\components\\pages\\adminpages\\staffdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|solutionrelative:components\\pages\\adminpages\\staffdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|c:\\users\\user\\desktop\\attaintasksupportsystem\\components\\pages\\adminpages\\clientdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|solutionrelative:components\\pages\\adminpages\\clientdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|c:\\users\\user\\desktop\\attaintasksupportsystem\\components\\pages\\adminpages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|solutionrelative:components\\pages\\adminpages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|c:\\users\\user\\desktop\\attaintasksupportsystem\\components\\pages\\adminpages\\listclients.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|solutionrelative:components\\pages\\adminpages\\listclients.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|c:\\users\\user\\desktop\\attaintasksupportsystem\\components\\pages\\adminpages\\staffdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|solutionrelative:components\\pages\\adminpages\\staffdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|c:\\users\\user\\desktop\\attaintasksupportsystem\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|c:\\users\\user\\desktop\\attaintasksupportsystem\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45FE475C-A3FF-4485-8981-55BA1C350962}|AttainTaskSupportSystem.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,63 +34,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Staff.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Models\\Staff.cs",
-              "RelativeDocumentMoniker": "Models\\Staff.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Models\\Staff.cs",
-              "RelativeToolTip": "Models\\Staff.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T09:49:11.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Models\\Client.cs",
-              "RelativeDocumentMoniker": "Models\\Client.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Models\\Client.cs",
-              "RelativeToolTip": "Models\\Client.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T09:49:07.987Z",
-              "EditorCaption": ""
+              "Title": "StaffDetails.razor",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Components\\Pages\\AdminPages\\StaffDetails.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\AdminPages\\StaffDetails.razor",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Components\\Pages\\AdminPages\\StaffDetails.razor",
+              "RelativeToolTip": "Components\\Pages\\AdminPages\\StaffDetails.razor",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAADEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T08:35:19.808Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AttainTaskSupportSystemContext.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Data\\AttainTaskSupportSystemContext.cs",
-              "RelativeDocumentMoniker": "Data\\AttainTaskSupportSystemContext.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Data\\AttainTaskSupportSystemContext.cs",
-              "RelativeToolTip": "Data\\AttainTaskSupportSystemContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T09:39:41.442Z",
-              "EditorCaption": ""
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Components\\_Imports.razor",
+              "RelativeToolTip": "Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T11:16:03.987Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "ListClients.razor",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Components\\Pages\\AdminPages\\ListClients.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\AdminPages\\ListClients.razor",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Components\\Pages\\AdminPages\\ListClients.razor",
+              "RelativeToolTip": "Components\\Pages\\AdminPages\\ListClients.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T11:06:34.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ClientDetails.razor",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Components\\Pages\\AdminPages\\ClientDetails.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\AdminPages\\ClientDetails.razor",
               "ToolTip": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Components\\Pages\\AdminPages\\ClientDetails.razor",
               "RelativeToolTip": "Components\\Pages\\AdminPages\\ClientDetails.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAEYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T09:32:42.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T10:31:27.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "Models\\Admin.cs",
@@ -106,46 +94,19 @@
               "RelativeToolTip": "Models\\Admin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T08:53:06.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T08:53:06.943Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Create.razor",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Components\\Pages\\AdminPages\\Create.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\AdminPages\\Create.razor",
               "ToolTip": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Components\\Pages\\AdminPages\\Create.razor",
               "RelativeToolTip": "Components\\Pages\\AdminPages\\Create.razor",
-              "ViewState": "AgIAADwAAAAAAAAAAAAuwFcAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwDUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-26T08:24:59.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Delete.razor",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Components\\Pages\\AdminPages\\Delete.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\AdminPages\\Delete.razor",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Components\\Pages\\AdminPages\\Delete.razor",
-              "RelativeToolTip": "Components\\Pages\\AdminPages\\Delete.razor",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T09:29:56.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StaffDetails.razor",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Components\\Pages\\AdminPages\\StaffDetails.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\AdminPages\\StaffDetails.razor",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\AttainTaskSupportSystem\\Components\\Pages\\AdminPages\\StaffDetails.razor",
-              "RelativeToolTip": "Components\\Pages\\AdminPages\\StaffDetails.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-20T08:35:19.808Z",
               "EditorCaption": ""
             }
           ]
