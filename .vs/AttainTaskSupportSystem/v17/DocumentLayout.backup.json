@@ -46,8 +46,7 @@
               "RelativeToolTip": "Migrations\\20250827104828_AddStaffAndClientFields.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T10:48:28.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T10:48:28.635Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "Components\\Pages\\AdminPages\\StaffDetails.razor",
               "ViewState": "AgIAAF0AAAAAAAAAAAAQwG4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-20T08:35:19.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T08:35:19.808Z"
             },
             {
               "$type": "Document",
@@ -72,8 +70,7 @@
               "RelativeToolTip": "Models\\Admin.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T10:38:41.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T10:38:41.149Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "Components\\Pages\\AdminPages\\Create.razor",
               "ViewState": "AgIAAD0AAAAAAAAAAAAowFUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T08:24:59.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T08:24:59.872Z"
             }
           ]
         }
